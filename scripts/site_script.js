@@ -139,7 +139,7 @@ $(document).ready(function() {
 			$('#arrow_icon_area').css('height', '100%');
 			$('#arrow_icon_area').css('left', (100 * scrollPercent * 1.5) + '%');
 
-			$('body').css('background-color', '#2ea5da');
+			$('body').css('background-color', '#15103e');
 		}
 
 		if (activeBlock.blockIndex == 2 && scrollPercent > 0) {
