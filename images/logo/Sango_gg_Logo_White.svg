@@ -14,6 +14,7 @@
 	.st8{fill:none;}
 	.st9{font-family:'GilbertBold';}
 	.st10{font-size:55px;}
+	.st11{letter-spacing:-1;}
 </style>
 <g>
 	<g>
@@ -51,5 +52,5 @@
 	</g>
 </g>
 <rect x="351.4" y="89.3" class="st8" width="73.7" height="38.5"/>
-<text transform="matrix(1 0 0 1 351.4031 127.822)" class="st0 st9 st10">.gg</text>
+<text transform="matrix(1 0 0 1 351.4031 127.822)" class="st0 st9 st10 st11">.gg</text>
 </svg>
