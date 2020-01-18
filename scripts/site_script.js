@@ -21,7 +21,7 @@ $(document).ready(function() {
 	$("#home_button").click(function() {
 	    $([document.documentElement, document.body]).animate({
 	        scrollTop: 0
-	    }, 2000);
+	    }, 1000);
 	});
 
 	$("#arrow_icon_area").click(function() {
@@ -36,21 +36,9 @@ $(document).ready(function() {
 	    }
 	});
 
-	$("#works_button").click(function() {
-		if (!portraitOrientation) {
-			$([document.documentElement, document.body]).animate({
-			    scrollTop: $("#ANPS_website_image").offset().top - 100
-			}, 2000);
-		} else {
-			$([document.documentElement, document.body]).animate({
-			    scrollTop: $("#ANPS_website_image").offset().top - 600
-			}, 2000);
-		}
-	});
-
-	$("#contact_button").click(function() {
+	$("#get_in_touch").click(function() {
 	    $([document.documentElement, document.body]).animate({
-	        scrollTop: $("#mountain").offset().top
+	        scrollTop: $("body").height()
 	    }, 2000);
 	});
 
