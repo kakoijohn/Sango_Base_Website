@@ -686,7 +686,7 @@ a:hover {
 	}
 
 	.contact_area_container {
-		top: 20vh;
+		top: 33vh;
 		left: 5%;
 		margin-right: 5%;
 	}
@@ -702,6 +702,11 @@ a:hover {
 
 	.contact_area h4 {
 		font-size: 25pt;
+	}
+
+	.social_icon {
+		width: 60px;
+		height: 60px;
 	}
 }
 
