@@ -159,10 +159,14 @@ $(document).ready(function() {
 			if (distFromPageBottom < $(window).height() * 2.0) {
 				$('#contact_image_ian').css('opacity', 1);
 				$('#contact_image_john').css('opacity', 1);
+
+				$('.social_icon').css('opacity', 1);				
 			}
 			else {
 				$('#contact_image_ian').css('opacity', 0);
 				$('#contact_image_john').css('opacity', 0);
+
+				$('.social_icon').css('opacity', 0);
 			}
 
 			if (distFromPageBottom < $(window).height() * 1.5) {

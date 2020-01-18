@@ -530,7 +530,7 @@ a:hover {
 
 	top: 10vh;
 	height: 80vh;
-	left: 30vw;
+	left: 35vw;
 
 	grid-template-columns: 1fr 1fr;
 }
@@ -578,6 +578,16 @@ a:hover {
 .contact_area .text_block .description_block {
 	display: grid;
 	grid-template-columns: 1fr;
+}
+
+.social_icon {
+	width: 30px; 
+	height: 30px; 
+	fill: white;
+
+	margin-right: 20px;
+
+	transition: ease-in 1s all;
 }
 
 @media screen and (max-width: 992px) {
