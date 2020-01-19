@@ -590,6 +590,11 @@ a:hover {
 	transition: ease-in 1s all;
 }
 
+#contact {
+	position: absolute;
+	float: bottom;
+}
+
 @media screen and (max-width: 992px) {
 
 }
